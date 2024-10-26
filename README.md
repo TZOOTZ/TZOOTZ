@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @TZOOTZ
-- 👀 I’m interested in dall e 2
-- 🌱 I’m currently learning machine learning 
-- 💞️ I’m looking to collaborate on Photo, Music and other multimedia creators
-- 📫 How to reach me www.tzootz.com
+👋 Hi, I’m @TZOOTZ
+
+🚀 Passionate about merging art and tech.
+📚 Currently diving into machine learning and advanced multimedia processing.
+🎶 Open to collaborating with creators in cgi, music, and multimedia arts.
+🌐 Connect with me at [tzootz.com](https://www.tzootz.com)
 
 <!---
-TZOOTZ/TZOOTZ is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+@TZOOTZ | This repository is ✨ unique ✨ because it's where creativity meets technology. Preview for a glimpse into our journey!
 --->
