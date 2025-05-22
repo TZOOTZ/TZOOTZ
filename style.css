@@ -1,0 +1,84 @@
+/* Basic reset and body styling for mobile-first approach */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+    font-family: 'Arial', 'Helvetica Neue', sans-serif; /* Modern sans-serif font */
+    background-color: #0a0a0a; /* Very dark grey, almost black */
+    color: #f0f0f0; /* Light grey text */
+    display: flex;
+    justify-content: center; /* Center container horizontally */
+    align-items: center; /* Center container vertically */
+}
+
+.container {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    
+    /* Strict 9:16 aspect ratio enforcement for devices that are taller than 9:16 */
+    /* For devices wider than 9:16, it will be letterboxed by the body background */
+    max-width: calc(100vh * (9 / 16)); 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes header and footer to edges */
+    align-items: center;
+    background-color: #000000; /* Pure black container background */
+    /* border: 1px solid #222; Optional: for debugging layout */
+    box-sizing: border-box;
+    position: relative; /* For potential absolute positioning of children if needed */
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; /* Slightly more padding */
+    background-color: #000000; /* Match container background */
+    border-bottom: 1px solid #1a1a1a; /* Subtle separator */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em; /* Larger branding text */
+    font-weight: 200; /* Lighter font weight for minimalism */
+    color: #ffffff; /* Pure white */
+    letter-spacing: 2px; /* Slight letter spacing */
+}
+
+main {
+    flex-grow: 1; /* Takes up all available space between header and footer */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Make canvas stretch vertically */
+    position: relative;
+}
+
+#synthCanvas {
+    width: 100%; /* Canvas takes full width of main */
+    height: 100%; /* Canvas takes full height of main */
+    background-color: #050505; /* Slightly off-black for the canvas */
+    cursor: pointer;
+    display: block; /* Remove any potential inline spacing */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    background-color: #000000; /* Match container background */
+    border-top: 1px solid #1a1a1a; /* Subtle separator */
+    color: #cccccc; /* Lighter grey for footer text */
+}
+
+/* Hide scrollbars if any appear due to rounding issues or specific browser behavior */
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
