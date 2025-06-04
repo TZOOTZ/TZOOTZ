@@ -1,58 +1,55 @@
-👋 Hi, We are @TZOOTZ
+# TZOOTZ RESEARCH TERMINAL
 
-🚀 TZOOTZ RESEARCH // We are passionate about merging art and tech.
-📚 Currently diving into machine learning and advanced multimedia processing.
-🌐 Connect with us at [studio@tzootz.com](https://www.tzootz.com)
-📝 DDG: Laberinto de Bolita
-1. Concepto General
-Género: Puzzle/Arcade.
+**Terminal web minimalista** para acceder a contenidos vanguardistas de TZOOTZ RESEARCH (música, apps, cine) desde móvil (9:16) con estética de mainframe retro.
 
-Objetivo: Guiar una bolita desde el punto de inicio hasta la meta en un laberinto 3D usando el giroscopio del móvil.
+## 🌟 Características
+- **3 Secciones interactivas**:
+  - **TZOOTZ TV**: Carrusel automático de videos (sin UI).
+  - **MUSIC DATABASE**: Listado de temas reproducibles al tocar.
+  - **DEVELOPMENT CONSOLE**: Links directos a proyectos externos.
+- **Diseño terminal**:
+  - Verde fosforescente sobre fondo negro.
+  - Fuente monoespaciada (`Courier New`).
+  - Bordes estilo TUI (Text User Interface).
+- **100% responsive** para móviles verticales.
 
-Hook: Sensación física de "equilibrio" y precisión al inclinar el dispositivo.
+🚀 Cómo desplegar
+Hosting estático (recomendado):
 
-2. Mecánicas Principales
-Controles:
+bash
+# Con Surge.sh (gratis)
+surge ./tzootz-terminal
+O usa Netlify/Vercel arrastrando la carpeta.
 
-La bolita se mueve según la inclinación del dispositivo (ej.: inclinar hacia adelante = bolita rueda hacia abajo).
+Personalización:
 
-Opción de calibrar el centro (para ajustar la posición neutral).
+Edita index.html para actualizar:
 
-Niveles:
+Nombres de archivos en videoFiles y songs.
 
-Laberintos estáticos y dinámicos (plataformas móviles, puentes que caen).
+Links en devLinks.
 
-Obstáculos como agujeros, paredes resbaladizas o zonas de "aceleración".
+Cambia colores en el CSS (busca #0f0 para modificar el verde).
 
-Física:
+💡 Comandos útiles (para futuras mejoras)
+javascript
+// Añadir más videos/audios
+const videoFiles = ["nuevo.mp4", ...];
+const songs = [{ title: "NUEVO_TEMA", file: "music/nuevo.mp3" }];
 
-Gravedad realista (la bolita puede ganar velocidad en pendientes).
+// Cambiar estilo a azul cian
+body { color: #00ffff; }
+📌 Requisitos
+Servidor web básico (funciona hasta en GitHub Pages).
 
-Rebote suave contra paredes.
+Videos/audios en formatos compatibles con HTML5 (mp4, webm, mp3).
 
-3. Progresión
-Dificultad:
+🎨 Inspiración
+Terminales UNIX años 80.
 
-Niveles iniciales: Laberintos simples en 2.5D (como un plano inclinado).
+Interfaces de sistemas como VMS o MS-DOS.
 
-Niveles avanzados: Estructuras 3D complejas (ej.: espirales, túneles).
+Estética cyberpunk/low-tech.
 
-Coleccionables:
-
-Monedas o estrellas para desbloquear skins de bolita (ej.: futbol, planeta, emojis).
-
-4. Feedback Visual/Sonoro
-Efectos:
-
-Sonido al chocar contra paredes, al caer en un agujero o al completar el nivel.
-
-Vibrar al perder.
-
-UI Minimalista:
-
-Botón "Reiniciar" rápido.
-
-Contador de tiempo y movimientos.
-<!---
-@TZOOTZ | This repository is ✨ unique ✨ because it's where creativity meets technology. Preview for a glimpse into our journey!
+© 2024 TZOOTZ RESEARCH | Vig0 + M4DR1D
 --->
