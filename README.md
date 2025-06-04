@@ -27,7 +27,7 @@ Terminales UNIX años 80.
 
 Interfaces de sistemas como VMS o MS-DOS.
 
-Estética cyberpunk/low-tech.
+Estética low-tech.
 
 © 2025 TZOOTZ RESEARCH | Vig0 + M4DR1D
 --->
