@@ -1,33 +1,100 @@
-# TZOOTZ RESEARCH TERMINAL
+<div align="center">
 
-**Terminal web minimalista** para acceder a contenidos vanguardistas de TZOOTZ RESEARCH (música, apps, cine) desde móvil (9:16) con estética de mainframe retro.
+```
+████████ ███████  ██████   ██████  ████████ ███████ 
+   ██       ███  ██    ██ ██    ██    ██       ███  
+   ██      ███   ██    ██ ██    ██    ██      ███   
+   ██     ███    ██    ██ ██    ██    ██     ███    
+   ██    ███████  ██████   ██████     ██    ███████ 
+```
 
-## 🌟 Características
-- **3 Secciones interactivas**:
-  - **TZOOTZ TV**: Carrusel automático de videos (sin UI).
-  - **MUSIC DATABASE**: Listado de temas reproducibles al tocar.
-  - **DEVELOPMENT CONSOLE**: Links directos a proyectos externos.
-- **Diseño terminal**:
-  - Verde fosforescente sobre fondo negro.
-  - Fuente monoespaciada (`Courier New`).
-  - Bordes estilo TUI (Text User Interface).
-- **100% responsive** para móviles verticales.
+**Creative Technology Lab — Madrid, est. 2003**
 
+`Systems · Visuals · Intelligence`
 
-💡 Comandos útiles (para futuras mejoras)
-javascript
-// Añadir más videos/audios
-const videoFiles = ["nuevo.mp4", ...];
-const songs = [{ title: "NUEVO_TEMA", file: "music/nuevo.mp3" }];
+</div>
 
-Videos/audios en formatos compatibles con HTML5 (mp4, webm, mp3).
+---
 
-🎨 Inspiración
-Terminales UNIX años 80.
+## ⌬ Research
 
-Interfaces de sistemas como VMS o MS-DOS.
+Independent studio building systems at the intersection of audio, visual computation, and machine intelligence. Tools, instruments, and interfaces for research and artistic practice — built from first principles, not frameworks for the sake of frameworks.
 
-Estética low-tech.
+```
+Location   Madrid · Vigo — ES
+Founded    2003
+Focus      Sound / Visual / Systems
+Stack      Python · C++ · TypeScript
+Status     Active
+```
 
-© 2025 TZOOTZ RESEARCH | Vig0 + M4DR1D
---->
+---
+
+## ⌬ Active Vectors
+
+```
+01  AUDIO SYSTEMS          DSP · generative composition · production tooling
+02  VISUAL COMPUTATION     generative pipelines · LoRA training · shader work
+03  MARITIME INTELLIGENCE  e-paper navigation · weather/route systems
+04  MOLECULAR VIZ          scientific viz · biomedical interfaces
+05  GENERATIVE SYSTEMS     multi-agent architectures · MCP servers · RAG
+```
+
+---
+
+## ⌬ Selected Systems
+
+```
+▸  OPTICAL ART SYNTH      moiré + audio dataset generator for video LoRA training
+▸  TZOOTZ TERMINAL        terminal-style mobile portal for TZOOTZ media
+▸  STRATEGA               node-canvas brand strategy authoring tool
+▸  PRISMA LABS            iOS Buchla-style modular synth
+▸  VOZSCORE               voice analysis with clinical DSP pipeline
+▸  PORRA 2026             mobile-first World Cup prediction pool
+```
+
+---
+
+## ⌬ Method
+
+```
+First principles. No frameworks for the sake of frameworks.
+
+  low-level signal processing
+        ↓
+  scientific visualization
+        ↓
+  maritime data intelligence
+        ↓
+  generative visual computation
+
+  Python and C++ at the core.
+  Web at the surface.
+```
+
+---
+
+## ⌬ Stack
+
+`Python` `C++` `TypeScript` `React` `Next.js` `ComfyUI` `LangGraph` `ChromaDB` `MCP` `WebGL` `JUCE` `Unreal Engine 5`
+
+Local inference: `RTX 5080` + `HPE ProLiant` blade cluster.
+
+---
+
+## ⌬ Music
+
+Released under **Roty340** and **Blasco Etchegaray** · SGAE since 1997 · Galician hip-hop roots / electronic and folk explorations.
+
+---
+
+<div align="center">
+
+```
+studio@tzootz.com   ·   tzootz.com
+```
+
+`© 2003 – 2026 TZOOTZ Research`
+`Vig0 + M4DR1D`
+
+</div>
